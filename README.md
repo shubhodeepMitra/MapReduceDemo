@@ -1,9 +1,9 @@
 # MapReduceDemo
-Some MapReduce Examples that I've tried out as a reult of Unoversity course program Big Data and Analytics
+Some MapReduce Examples that I've tried out as a result of University course program Big Data and Analytics
 
 ### Resources:
   https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html
-  https://dzone.com/articles/word-count-hello-word-program-in-mapreduce
+ 
   
  #### Input file for word count program: 
     The Project Gutenberg EBook of Crime and Punishment, by Fyodor Dostoevsky
