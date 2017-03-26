@@ -8,11 +8,18 @@
               https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html
 
 
-            Note:
+  Note:
             Add External Archivals in Build Path
 
             /usr/lib/hadoop-0.20/hadoop-core.jar
             /usr/lib/hadoop-0.20/lib/Commons-cli-1.2.jar
+  
+  Explanation:
+    The program consist of 3 classes: 
+   1: Driver class (Public void static main- the entry point)
+   2: Map class which extends public class Mapper<KEYIN,VALUEIN,KEYOUT,VALUEOUT>  and implements the Map function.
+   3: Reduce class which extends public class Reducer<KEYIN,VALUEIN,KEYOUT,VALUEOUT> and implements the Reduce function.
+
 
 
 */
